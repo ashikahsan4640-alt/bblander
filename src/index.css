@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #181A20;
+    color: #EAECEF;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom sleek dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #181A20;
+}
+::-webkit-scrollbar-thumb {
+  background: #2B313A;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #474D57;
+}
